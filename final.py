@@ -17,4 +17,14 @@ note = [
     issue_date
 ]
 
-print(note)
+def show_titles():
+    print("Заголовки: ")
+    for title in titles:
+        print(f'\t {title}')
+
+print(f'Имя пользвателя: {note[0]}')
+show_titles()
+print(f'Содержание: {note[2]}')
+print(f'Статус: {note[3]}')
+print(f'Дата создания: {note[4]}')
+print(f'Дата дедлайна: {note[5]}')
